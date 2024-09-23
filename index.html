@@ -1,14 +1,67 @@
 <!DOCTYPE html>
-<html lang="en-US">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" description="with device-width" width="200">
-        <title>WDD 131 | Chioma Asiama</title>
-    </head>
-    <body>
-        <header>
-            <h1>WDD 131 | Chioma Asiama</h1>
-        </header>
-        <footer></footer>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - Chioma Asiama</title>
+    <meta name="author" content="Chioma Asiama">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Chioma Asiama">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>WDD 131 - Dynamic Web Fundamentals - Chioma Asiama</h1>
+        <nav>
+            <ul>
+                <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
+                <li><a href="https://byui.instructure.com/.">I-Learn</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng">Scripture</a></li>
+                <li><a href="#">Final project</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="card1">
+            <h2 id="content1">About Me</h2>
+            <p id="para1">My name is Chioma. I was born in Nigeria and currently resides in Lagos with my family. 
+                I am married and has a wonderful large family. I am currently working as a sales manager in a 
+                cosmetics company. I love to excercise. I also love to meet new people.                
+            </p>
+            <img id="myImage1" src="images/profile.jpg" alt="Picture of myself">
+
+            <h2 id="content2">Nigeria</h2>
+            <hr class="section-divider">
+            <img id="myImage2" src="images/nigeria-flag.jpg" alt="Picture of nigeria">
+            <p id="para2">Nigeria is the biggest country in West Africa. It's main source of income is crude oil. 
+                It has three major ethnic group namely Hausa, Igbo and Yoruba. Its film industry is called Nollywood.   
+                With over 200 million people, it is the most populous country in Africa. Nigeria is 
+                blessed with abundant natural resources, like oil, natural gas, minerals, and agricultural products. 
+                Despite challenges, Nigerians are known for their resilience, warmth, and hospitality. 
+                Nigeria continues to make strides in areas such as technology, entrepreneurship, and creative industries. </p>
+        </section>
+
+        <section class="card">
+            <h2 id="content3">Web Dev Resources</h2>
+            <ul>
+                <li><a href="https://www.codecademy.com/">Codecademy</a></li>
+                <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
+                <li><a href="https://www.udemu.com">Udemy</a></li>
+                <li><a href="https://web.dev/learn/css">Web dev/Learn CSS</a></li>
+                <li><a href="https://www.coursera.org">Coursera</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>
+            &copy; <span id="currentyear"></span> 🧞‍♀️ Chioma Asiama 🧞‍♀️ Nigeria
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
 </html>
