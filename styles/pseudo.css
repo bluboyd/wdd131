@@ -1,0 +1,69 @@
+
+:root {
+    --bord: 1px solid #777;
+}
+* {
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    margin: 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    width: 760px;
+    background-color: #eee;
+
+}
+p{
+    margin-block: 1rem;
+    color: black;
+}
+ul li{
+    margin: 5px, 0, 5px, 1rem;
+    padding-left: 6px;
+    font-size: 18px;
+    font-weight: 600;
+}
+ul li::marker{
+    color: navy;
+    font: size 2 rem;
+    font: var(small);
+    content: '☑️';
+       
+}
+.datatable{
+    width: 200px;
+    margin-top: 2rem;
+}
+.row{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    align-items: center;
+    text-align: center;
+}
+.col{
+    border-top: var(--bord);
+    border-left: var(--bord);
+    padding: 10px;
+}   
+.col:nth-child(even){
+    border-right: var(--bord);
+}
+.row:last-child {
+    border-bottom: var(--bord);
+
+}
+a:active,
+a:link,
+a:visited {
+    color: navy;
+}
+a:hover{
+    color: purple;
+}
